@@ -1,7 +1,7 @@
 import React from 'react';
-import { makeStyles } from '@material-ui/core/styles';
+// import { makeStyles } from '@material-ui/core/styles';
 import Grid from '@material-ui/core/Grid';
-import Background from '../svg/Background'
+// import Background from '../svg/Background'
 import backgroundAnimation from '../resourses/svg/backgroundAnimation.svg'
 import TypeCard from './TypeCard/TypeCard';
 import TypeInfo from './TypeInfo/TypeInfo';
@@ -10,22 +10,22 @@ import amaeble from '../resourses/amaeble.png'
 import analatic from '../resourses/analatical.png'
 import artist from '../resourses/artist.png'
 
-const useStyles = makeStyles((theme) => ({
-    root: {
-        flexGrow: 1,
-    },
-    paper: {
-        height: 140,
-        width: 100,
-    },
-    control: {
-        padding: theme.spacing(2),
-    },
-}));
+// const useStyles = makeStyles((theme) => ({
+//     root: {
+//         flexGrow: 1,
+//     },
+//     paper: {
+//         height: 140,
+//         width: 100,
+//     },
+//     control: {
+//         padding: theme.spacing(2),
+//     },
+// }));
 
 export default function TypeGrid() {
-    const [spacing, setSpacing] = React.useState(2);
-    const classes = useStyles();
+    // const [spacing, setSpacing] = React.useState(2);
+    // const classes = useStyles();
     const cardDetailsArray = [
         {
             key: 0,
@@ -61,7 +61,7 @@ export default function TypeGrid() {
                     backgroundImage: `url(${backgroundAnimation})`,
                     backgroundSize: 'contain',
                     backgroundRepeat: 'no-repeat',
-                    height : '140vh'
+                    height: '140vh'
                 }}>
                 <TypeInfo title='Four types of Personality' subTitle={subTitle} ></TypeInfo>
                 <Grid container justify="center">

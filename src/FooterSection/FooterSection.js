@@ -119,7 +119,7 @@ export default function FooterSection() {
             <div className={style.preFooter}>
                 <TypeInfo title='Start Your Excam Now' color="white" subTitle={subTitle} ></TypeInfo>
                 <div className={style.buttonParent} >
-                    <a className={style.footerButton} href="#">Start Test</a>
+                    <a className={style.footerButton} href="www.google.com">Start Test</a>
                 </div>
             </div>
             <div className={style.mainFooter}>

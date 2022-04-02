@@ -1,5 +1,5 @@
 import React from 'react';
-import { makeStyles, useTheme } from '@material-ui/core/styles';
+import { makeStyles } from '@material-ui/core/styles';
 import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
@@ -17,11 +17,11 @@ const useStyles = makeStyles((theme) => ({
     },
     content: {
         flex: '1 0 auto',
-        width : '0%'
+        width: '0%'
     },
     cover: {
         width: 151,
-        height:150,
+        height: 150,
         flex: '0 1 auto',
     },
     controls: {
@@ -34,7 +34,7 @@ const useStyles = makeStyles((theme) => ({
         height: 38,
         width: 38,
     },
-    paragraph :{
+    paragraph: {
         fontSize: '0.8em',
         '&::before': {
             content: "hi",
@@ -46,35 +46,35 @@ const useStyles = makeStyles((theme) => ({
             position: 'absolute',
             left: '-65px',
             top: '-45px',
-          }
+        }
     },
-    userName :{
-        float : 'right',
-        marginTop : '30px'
+    userName: {
+        float: 'right',
+        marginTop: '30px'
     }
 }));
 
 export default function CommentCard() {
     const classes = useStyles();
-    const theme = useTheme();
+    // const theme = useTheme();
 
     return (
         <Card className={classes.root}>
             <div className={classes.details}>
                 <CardMedia
                     className={classes.cover}
-                    image= {artist}
+                    image={artist}
                     title="Live from space album cover"
                 />
                 <CardContent className={classes.content}>
-                    <p className= {classes.paragraph}>
-                    This test change my life. I never thought such
-                    simple test help me understand my self,
-                    what i love and what to do in future.
-                     After thest i found that i am artist type person
+                    <p className={classes.paragraph}>
+                        This test change my life. I never thought such
+                        simple test help me understand my self,
+                        what i love and what to do in future.
+                        After thest i found that i am artist type person
                     </p>
                     <Typography className={classes.userName} variant="subtitle1" color="textSecondary">
-                       - Mac Miller
+                        - Mac Miller
                     </Typography>
                 </CardContent>
                 {/* <div className={classes.controls}>
