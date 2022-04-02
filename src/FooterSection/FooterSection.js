@@ -117,7 +117,7 @@ export default function FooterSection() {
                 backgroundColor: '#000000'
             }}>
             <div className={style.preFooter}>
-                <TypeInfo title='Start Your Excam Now' color="white" subTitle="" ></TypeInfo>
+                <TypeInfo title='Start Your Excam Now' color="white" subTitle={subTitle} ></TypeInfo>
                 <div className={style.buttonParent} >
                     <a className={style.footerButton} href="#">Start Test</a>
                 </div>
