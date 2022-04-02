@@ -1,0 +1,9 @@
+.backgroung-image{
+    float: right;
+    background-image: url("../../resourses/homepage.png");
+    height: 100vh;
+    width: 65vw;
+    background-size: cover;
+    background-position: left;
+   /* margin-left: 35vw; */
+}

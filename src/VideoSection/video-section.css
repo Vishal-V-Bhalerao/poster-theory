@@ -1,0 +1,4 @@
+.video-section svg.bg {
+    right: 0px;
+    transform: rotate(180deg);
+}

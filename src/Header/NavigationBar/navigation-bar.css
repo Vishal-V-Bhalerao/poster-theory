@@ -1,0 +1,27 @@
+
+nav{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 100%;
+   
+}
+
+.nav-ul{
+    z-index: 5;
+    text-align: right;
+    display: inline-block;
+    float: right;
+    /* background-color: #079AAA; */
+}
+
+.logo-div{
+    background-image: url('../../resourses/posterTheory.png');
+    height: 90px;
+    width: 95px;
+    background-size: cover;
+    display: inline-block;
+    margin-left: 3vw;
+    margin-top: 10px;
+
+}
